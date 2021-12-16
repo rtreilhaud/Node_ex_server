@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ajoutez un utilisateur</title>
+		<link href="/bootstrap" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body class="container">
+		<form action="/" method="POST" class="">
+			<fieldset class="form-group d-flex">
+				<label class="me-5"
+					>Nom
+					<input class="form-control" name="name" type="text" />
+				</label>
+				<label
+					>Date de naissance
+					<input class="form-control" name="birth" type="date" />
+				</label>
+			</fieldset>
+			<button type="submit" class="btn btn-success mt-2">Ajouter</button>
+		</form>
+
+		<a class="btn btn-primary mt-2" href="/users">Liste des utilisateurs</a>
+	</body>
+</html>
